@@ -36,7 +36,7 @@ public class Arreys{
 						while(i<5){
 						
 						   System.out.println(ages[i]);
-						   i++
+						   i++;
 					
 					}
 					
@@ -45,7 +45,7 @@ public class Arreys{
 						 
 		           // for(int i=0; i<ages.length; i++){
 						
-						
+						//s
 					
 					
 
