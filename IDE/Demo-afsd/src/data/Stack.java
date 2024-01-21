@@ -30,4 +30,14 @@ public class Stack {
         }
     }
 
+    public void pop(){
+
+        if (top!=null){
+            top=top.next;
+
+        }
+
+
+    }
+
 }
