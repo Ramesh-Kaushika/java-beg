@@ -2,7 +2,7 @@ package threads;
 
 public class Demo {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 //create obj DemoThread Class
         DemoThread demoThread = new DemoThread();
 //Create obj Runnable Thread class
@@ -14,9 +14,12 @@ public class Demo {
 //demothread reference variable calling start method
         demoThread.start();
 
+
         for (int i = 0; i <10 ; i++) {
             System.out.println("Main Running");
         }
+
+
     }
 
 }

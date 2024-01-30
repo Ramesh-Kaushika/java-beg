@@ -7,6 +7,8 @@ public class DemoThread extends Thread{
         for (int i = 0; i <10 ; i++) {
             System.out.println("Thread is Running");
 
+
+
         }
     }
 }
