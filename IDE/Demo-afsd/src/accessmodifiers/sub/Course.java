@@ -2,8 +2,15 @@ package accessmodifiers.sub;
 
 public class Course  {
 
-    //default  key word
-    int age = 10;
+    public int age;
+    private void play(){
+
+    }
+
+    public void asign(){
+        Student student = new Student();
+
+    }
 
 
 
